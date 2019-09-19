@@ -4,3 +4,5 @@ Syntax - https://raw.githubusercontent.com/<username>/<project>/<branch>/<path>/
 
 command - 
 
+https://raw.githubusercontent.com/ImmLearning/AWSlinux2EC2/master/installJenkins.sh | bash
+
