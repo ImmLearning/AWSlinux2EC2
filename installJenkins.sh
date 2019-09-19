@@ -12,9 +12,11 @@ sleep 100
 sudo service jenkins start
 echo -e "Access Jenkins server using the public DNS of your ec2 on port 8080 \n  http://{ec2-public-dns}:8080 \n example : http://3.89.79.74:8080/"
 echo "Here you might have to allow port 8080 in your security group settings"
+mkdir -p /home/jenkins
 sudo su 
 cd /var/lib/jenkins/secrets/
-cat initialAdminPassword | tee -a >> /home/passwordjenkins.txt
+cat initialAdminPassword | tee -a >> /home/jenkins/passwordjenkins.txt
+cat /home/jenkins/passwordjenkins.txt
 
 #Tips for remembering
 echo -e "To start jenkins on a diff port \n Update port number in /etc/sysconfig/jenkins"
