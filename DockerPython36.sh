@@ -13,7 +13,7 @@
 echo "running commands"
 
 #may need this
-apt-get install software-properties-common
+apt install -y software-properties-common
 #now start
 
 add-apt-repository ppa:jonathonf/python-3.6
@@ -21,6 +21,12 @@ apt update -y && apt upgrade -y
 apt install -y python3.6
 apt install -y python3-django
 apt install -y python3-pip
+
+#create virtual env
+#pip3 install -y virtualenv
+#virtualenv -p python3.6 venv
+#apt-get install python3.6-dev libmysqlclient-dev
+
 apt install -y python3.6 libmysqlclient-dev
 pip freeze > requirementss.txt
 
