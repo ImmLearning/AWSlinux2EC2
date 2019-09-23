@@ -28,11 +28,11 @@ apt install -y python3-pip
 #apt-get install python3.6-dev libmysqlclient-dev
 
 apt install -y python3.6 libmysqlclient-dev
-pip freeze > requirementss.txt
+pip3 freeze > requirementss.txt
 
 #below are optional
 
-#pip install -r requirementss.txt
+#pip3 install -r requirementss.txt
 #django-admin startproject myproject
 #python manage.py startapp myapp
 #python manage.py makemigrations
@@ -56,4 +56,4 @@ sleep 100
 
 #using custom requirement list 
 wget https://raw.githubusercontent.com/ImmLearning/AWSlinux2EC2/master/requirements.txt 
-echo -e "\n run pip install -r requirements.txt \n for more"
+echo -e "\n run pip3 install -r requirements.txt \n for more"
