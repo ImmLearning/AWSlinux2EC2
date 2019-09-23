@@ -1,3 +1,7 @@
+#run below command
+#wget -O - https://raw.githubusercontent.com/ImmLearning/AWSlinux2EC2/master/lamp.sh | bash
+
+
 #!/bin/bash
 
 # This script is intended for use in development only. It is not optimized or secure for production use.
