@@ -38,3 +38,22 @@ pip freeze > requirementss.txt
 #python manage.py makemigrations
 #python manage.py migrate
 #python manage.py runserver
+
+#testing installation
+echo -e " \n Checking python Version \n \n"
+python3 -V
+sleep 100
+
+echo -e " \n Checking python Django Version \n \n"
+py -m django --version
+#python -m django --version
+sleep 100
+
+echo -e " \n Checking pip Version \n \n"
+pip --version
+#pip -V
+sleep 100
+
+#using custom requirement list 
+wget https://raw.githubusercontent.com/ImmLearning/AWSlinux2EC2/master/requirements.txt 
+echo -e "\n run pip install -r requirements.txt \n for more"
