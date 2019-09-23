@@ -1,3 +1,8 @@
+#how to run 
+#First - run below commands for initaiting docker
+#second run below command
+#wget -O - https://raw.githubusercontent.com/ImmLearning/AWSlinux2EC2/master/DockerPython36.sh | bash
+
 #docker commands
 #docker pull ubuntu:18.04
 #docker run -it -d ubuntu:18.04
