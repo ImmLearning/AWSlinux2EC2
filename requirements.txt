@@ -10,7 +10,7 @@ django-cors-headers==2.4.0
 django-pyodbc-azure==2.0.8.0
 django-silk==3.0.1
 django-simple-history==2.7.0
-djangorestframework==3.8.2
+djangorestframework==3.11.2
 djangorestframework-simplejwt==3.2.3
 docutils==0.14
 gprof2dot==2016.10.13
