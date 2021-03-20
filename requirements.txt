@@ -15,7 +15,7 @@ djangorestframework-simplejwt==3.2.3
 docutils==0.14
 gprof2dot==2016.10.13
 idna==2.8
-Jinja2==2.10
+Jinja2==2.11.3
 jmespath==0.9.3
 MarkupSafe==1.1.1
 Pillow==5.4.1
